@@ -77,7 +77,7 @@ const loadInfo = (e) => {
         setTimeout(() => {
             modalContent.removeChild(modalContent.firstChild);
             const content = document.createElement('div');
-            content.innerHTML = '<h2>Hi</h2>';
+            content.innerHTML = '<h2>Holis</h2>';
             modalContent.appendChild(content);
         }, 3000);
     }
